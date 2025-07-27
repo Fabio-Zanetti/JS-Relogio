@@ -26,6 +26,24 @@ h1 {
     color: #40e040;
     padding: 20px 0;
 }
+.start,
+.stop {
+    font-size: 1.5rem;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #014901;
+    color: #fff;
+    cursor: pointer;
+}
+.start:hover,
+.stop:hover {
+    background-color: #0d6107;
+}
+.btn {
+    margin:50px;
+}
 
 @media screen and (max-width: 400px) {
     h1 {
